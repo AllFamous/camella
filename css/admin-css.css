@@ -1,0 +1,27 @@
+.bf-del-img-icon, 
+.bf-edit-img-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 30.333%;
+  width: 30px;
+  text-align: ceenter;
+  cursor: pointer;
+  padding-left: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.bf-del-img-icon {
+  top: 30%;
+        border-top: 1px #fff solid;
+}
+.bf-add-img .dashicons {
+  font-size: 24px !important;
+  line-height: 42px;
+}
+.bf-add-img {
+        position:relative;
+  border: 1px #ccc solid;
+        background-color: #FFF;
+  width: 100% !important;
+}

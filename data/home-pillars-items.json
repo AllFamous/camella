@@ -1,0 +1,32 @@
+[ 
+	{
+	  	"icon"			: "dashicons dashicons-admin-multisite",
+	  	"title"			: "Dream Communities",
+	  	"description" 	: "Camella’s mission is to provide Filipinos with the kind of home and lifestyle they have long dreamed of, by building beautiful homes ....",
+	  	"url" 			: "./news-and-articles/why-camella-is-your-most-sensible-choice"
+	},
+	{
+	  	"icon"			: "fa-road",
+	  	"title"			: "Convenience and Accessibility",
+	  	"description" 	: "Camella builds in only the most carefully selected and attractive locations, located close to commercial centers, government services...",
+	  	"url" 			: "./news-and-articles/why-camella-is-your-most-sensible-choice"
+	},
+	{
+	  	"icon"			: "fa-key",
+	  	"title"			: "Safety and Security",
+	  	"description" 	: "Camella guarantees homeowners’ safety with guarded entrance gates equipped with CCTV, as well as high perimeter fences...",
+	  	"url" 			: "./news-and-articles/why-camella-is-your-most-sensible-choice"
+	},
+	{
+	  	"icon"			: "fa-check",
+	  	"title"			: "Wise Investments",
+	  	"description" 	: "Every Camella home is a desirable investment, likely to appreciate in value over time.",
+	  	"url" 			: "./news-and-articles/why-camella-is-your-most-sensible-choice"
+	},
+	{
+	  	"icon"			: "fa-thumbs-up",
+	  	"title"			: "Affordability and Value-for-Money",
+	  	"description" 	: "Camella offers easy home ownership through flexible financing schemes and payment options ...",
+	  	"url" 			: "./news-and-articles/why-camella-is-your-most-sensible-choice"
+	}
+]

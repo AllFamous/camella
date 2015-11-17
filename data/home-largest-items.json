@@ -1,0 +1,27 @@
+[ 
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Icon-Readers-Digest.png",
+	  	"title"			: "4 CONSECUTIVE YEARS READER’S DIGEST TRUSTED BRAND AWARDS",
+	  	"description" 	: "Camella received the ultimate seal of consumer approval after survey participants, composed of Reader’s Digest subscribers, and randomly selected consumers, gave Camella high ratings on six attributes: Trustworthiness, Credibility, Quality, Value, Understanding of Customer Needs, Innovation and Social Responsibility."
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Icon-Philippine-Property-Awards.png",
+	  	"title"			: "PHILIPPINES PROPERTY AWARDS – Best Mid-Range Development",
+	  	"description" 	: "Camella Puerto Princesa, a Caribbean-inspired community in Palawan, was recognized as the Best Mid-Range Development at the Philippines Property Awards. Located at the heart of Puerto Princesa, this resort-like community development offers high-quality homes and lifestyle facilities such as a clubhouse with swimming pool, children’s playground, open and covered ball courts, and jogging and biking paths."
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Icon-Philippine-Quill-Awards.png",
+	  	"title"			: "2015 Philippine Quill Awards",
+	  	"description" 	: "Conferred by the International Association of Business Communicators, the annual Philippine Quill Awards is the most prestigious mark of excellence and professional acknowledgement within business communication. It gives recognition to the most effective communication, programs, and skills, among other initiatives."
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Icon-Tambuli-Awards.png",
+	  	"title"			: "Tambulli Awards (“Sikip” TVC)",
+	  	"description" 	: "The first and only global award of its kind, the Asia-Pacific Tambuli Awards honors brands that deliver results and promote the social good— brands from around the world that celebrate human truths, inspire purpose, and effect real change. Organized by the School of Communication of the University of Asia and the Pacific (UA&P), it is inspired by UA&P's vision to develop whole-person leaders who take initiative in the benefit of individuals, communities, and the greater good."
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Icon-PSRC.png",
+	  	"title"			: "PSRC Recognition",
+	  	"description" 	: "Philippine Survey Research Center (PSRC), Camella stood out as the most preferred housing brand, claiming top of mind awareness amount the B and C socioeconomic classes."
+	}
+]

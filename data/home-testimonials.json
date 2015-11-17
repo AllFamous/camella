@@ -1,0 +1,34 @@
+[ 
+	{
+	  	"type"				: "text",
+	  	"profileImage"		: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Testimonial-Bringula.jpg",
+	  	"testimonial"		: "<p>Pangarap ko pag nagkapamilya ako ay maregaluhan ko ng isang maayos na matitirhan ang aking magiging maybahay. Kaya naghanap buhay ako ng husto upang matupad ko ang aking pangarap. Nang dumating si Camella sa bayan ng Orani, ‘ di ko na pala kailangan mag-ipon ng bongang-bongga para lang matupad ang pangarap kong bahay at lupa. ‘Di man kalakihan pero sigurado akong affordable at may quality.</p><p>Napag alaman kong kay Camella, magkakabahay at lupa na ‘di mo na kailangan ipunin pa muna bago magkabahay.</p><p>Ngayon, nakikita ko unti-unti ang aking pangarap.</p><p>Salamat kay Camella, natupad na ang aking pangarap. Sobrang inspired ako ngayon sa trabaho ko dahil kay Camella.</p>",
+	  	"name" 				: "Ryan Lloyd Bringula",
+	  	"title" 			: "Proud Camella Homeowner - Camella Orani",
+	  	"videoEmbedCode" 	: ""
+	},
+	{
+	  	"type"				: "text",
+	  	"profileImage"		: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Testimonial-Evangelista.jpg",
+	  	"testimonial"		: "Good location, nice personnel and what we like most is the cleanliness of the whole community.",
+	  	"name" 				: "Rhodora Evangelista",
+	  	"title" 			: "Proud Camella Homeowner - Camella Tarlac",
+	  	"videoEmbedCode" 	: ""
+	},
+	{
+	  	"type"				: "text",
+	  	"profileImage"		: "http://testdev.camella.com.ph/wp-content/uploads/2015/08/Testimonial-Nabong.jpg",
+	  	"testimonial"		: "Pinili ko ang Camella dahil ito ay malapit sa lahat like schools, church, malls at iba pang establishments. Dito ay mayroong peace of mind and friendly neighbourhood at higit sa lahat ay safe ang mga nakatira dito.",
+	  	"name" 				: "Mary Hazelyn Nabong",
+	  	"title" 			: "Proud Camella Homeowner - Camella Cabanatuan",
+	  	"videoEmbedCode" 	: ""
+	},
+	{
+	  	"type"				: "text",
+	  	"profileImage"		: "http://testdev.camella.com.ph/wp-content/uploads/2015/10/Testimonial-Unza.jpg",
+	  	"testimonial"		: "Kailangan na naming humiwalay sa mga anak naming noon, kaya naisip naming kumuha ng bahay. Maraming kumukuha sa Camella, kaya dito kami nag-invest ng bahay. Napakalapit lang sa Vigan ng mismong site, malapit sa simbahan, paaralan at sa palengke. Nung nakalipat na kami, satisfied kami. Araw-araw may nangongolekta ng basura, kapag nag- jojogging ako tuwing madaling araw, iyong mga guards, nakakatuwa kasi masipag silang umikot. Kaya sa Camella, masasabi kong payapa ang buhay.",
+	  	"name" 				: "Macario Iluza",
+	  	"title" 			: "Proud Camella Homeowner - Camella Bantay",
+	  	"videoEmbedCode" 	: ""
+	}
+]

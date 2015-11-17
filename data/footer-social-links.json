@@ -1,0 +1,32 @@
+[ 
+	{
+	  	"icon"			: "fa-facebook",
+	  	"class"			: "fb",
+	  	"name"			: "Facebook",
+	  	"url" 			: "https://www.facebook.com/CamellaOfficial"
+	},
+	{
+	  	"icon"			: "fa-twitter",
+	  	"class"			: "tw",
+	  	"name"			: "Twitter",
+	  	"url" 			: "https://twitter.com/camellaofficial"
+	},
+	{
+	  	"icon"			: "fa-google-plus",
+	  	"class"			: "gp",
+	  	"name"			: "Google+",
+	  	"url" 			: "https://plus.google.com/104081564529915814322"
+	},
+	{
+	  	"icon"			: "fa-youtube-play",
+	  	"class"			: "yt",
+	  	"name"			: "YouTube",
+	  	"url" 			: "https://www.youtube.com/user/CamellaOfficial"
+	},
+	{
+	  	"icon"			: "fa-instagram",
+	  	"class"			: "ig",
+	  	"name"			: "Instagram",
+	  	"url" 			: "https://instagram.com/camellaofficial/"
+	}
+]

@@ -1,0 +1,17 @@
+[ 
+	{
+	  	"image"	: "http://testdev.camella.com.ph/wp-content/uploads/2015/08/01HeroSection01_Community.jpg",
+	  	"alt" 	: "Beautiful. Convenient. Secure.",
+	  	"url" 	: "http://camella.com.ph"
+	},
+	{
+	  	"image"	: "http://testdev.camella.com.ph/wp-content/uploads/2015/08/01HeroSection01_Pool.jpg",
+	  	"alt" 	: "All that you need is here. Camella Masterplanned Communities",
+	  	"url" 	: "http://camella.com.ph"
+	},
+	{
+	  	"image"	: "http://testdev.camella.com.ph/wp-content/uploads/2015/08/01HeroSection01_Recruit.jpg",
+	  	"alt" 	: "We are hiring!",
+	  	"url" 	: "http://camella.com.ph"
+	}
+]

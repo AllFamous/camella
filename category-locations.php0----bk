@@ -1,0 +1,203 @@
+<?php get_header(); ?>
+<?php
+	include_once('includes/inside/mast-header.php');
+?>
+    <div class="container-fluid inner-page-content">
+        <div class="container">
+            <div class="row basic-page">
+                <div class="col-md-12">
+                	<!-- buttons -->
+                	<div class="text-center projects-buttons">
+	                    <?php
+	                        // get property sub category
+	                        $categoryId = get_category_by_slug('locations'); 
+	                        $categoryId = $categoryId->term_id;
+
+	                        $args = array(
+	                            'parent'        => $categoryId,
+	                            'hierarchical'  => 0,
+	                            'orderby'       => 'id',
+	                            'order'         => 'ASC',
+	                            'hide_empty'    => 0
+	                        );
+	                        $categories = get_categories($args);
+	                        echo '<a href="#" class="btn btn-primary btn-lg active" data-location-id="">ALL</a>';
+	                        foreach($categories as $key => $value){
+	                            $name = $value->name;
+	                            $locationId = $value->term_id;
+	                            echo '<a href="#" class="btn btn-primary btn-lg" data-location-id="'.$locationId.'">'.strtoupper($name).'</a>';
+	                        }
+	                    ?>
+	                </div>
+
+	                <!-- map -->
+	                
+	                <div class="col-md-12 map-container" id="index-properties"></div>
+	                <div class="clearfix"></div>
+	                <!-- listings -->
+	                <?php
+	                	$category = get_category(get_query_var('cat'));
+						$categoryId = $category->cat_ID;
+						if (!isCategoryLevel('2')){
+							$slugId = $categoryId;
+						} else {
+							$slugId = 0;
+						}
+	                ?>
+	                <div class="well project-lists" data-page-category-id="<?php echo $slugId; ?>">
+	                	<h2 class="selected-title">All Locations</h2>
+	                	<div class="row">
+	                		<?php
+	                			$categoryId = get_category_by_slug('locations');
+	                			$categoryId = $categoryId->term_id;
+
+	                			$args = array(
+		                            'parent'        => $categoryId,
+		                            'hierarchical'  => 0,
+		                            'orderby'       => 'id',
+		                            'order'         => 'ASC',
+		                            'hide_empty'    => 0
+	                			);
+
+	                			$categories = get_categories($args);
+	                			foreach($categories as $key => $value){
+	                				$name = $value->name;
+	                				$locationId = $value->term_id;
+	                				?>
+				                		<div class="col-md-3 location-item" data-location-id="<?php echo $locationId; ?>">
+				                			<h4><i class="fa fa-map-marker"></i> <?php echo $name; ?></h4>
+				                			<ul class="fa-ul">
+				                			<?php
+				                				$args = array(
+						                            'parent'        => $locationId,
+						                            'hierarchical'  => 0,
+						                            'orderby'       => 'id',
+						                            'order'         => 'ASC',
+						                            'hide_empty'    => 0
+					                			);
+
+					                			$subCategories = get_categories($args);
+					                			foreach($subCategories as $keySub => $valueSub){
+					                				$subName = $valueSub->name;
+	                								$subLocationId = $valueSub->term_id;
+	                								?>
+													<div class="container">
+													<div class="accordion" id="accordion">
+	                									<li>
+	                										<i class="fa-li fa fa-angle-right"></i>
+	                										<strong><?php echo $subName; ?></strong>
+	                										<?php
+	            												$args = array(
+	            													'posts_per_page'   => -1,
+	            													'category'         => $subLocationId,
+	            													'orderby'          => 'title',
+	            													'order'            => 'DESC',
+	            													'post_status'      => 'publish'
+	            												);
+	            												$locationsMain = get_posts($args);
+	            												if(count((array)$locationsMain) >= 1){
+	            													?>
+	            													<ul class="fa-ul">
+	            														<?php
+		                												foreach($locationsMain AS $keyLoc => $valueLoc){
+			                												$locId = $valueLoc->ID;
+			                												if (checkPostDescendants($subLocationId) === false){
+				                												?>
+				                													<li>
+				                														<i class="fa-li fa fa-home"></i>
+				                														<strong><a href="<?php echo get_permalink($locId); ?>"><?php echo get_the_title($locId); ?></a></strong>
+				                													</li>
+				                												<?php
+			                												}
+		                												}
+	            														?>
+	            													</ul>
+	            													<?php
+	            												}
+            												?>
+
+	                										<?php
+	                											$args = array(
+										                            'parent'        => $subLocationId,
+										                            'hierarchical'  => 0,
+										                            'orderby'       => 'id',
+										                            'order'         => 'ASC',
+										                            'hide_empty'    => 0
+									                			);
+
+									                			$subSubCategories = get_categories($args);
+									                			if(count((array)$subCategories) >= 1){
+									                				?>
+								                					<ul class="fa-ul">
+								                						<?php
+												                			foreach($subSubCategories as $keySub => $valueSubSub){
+												                				$subSubName = $valueSubSub->name;
+				                												$subSubLocationId = $valueSubSub->term_id;
+												                				?>
+												                					<li>
+								                										<i class="fa-li fa fa-angle-right"></i>
+								                										<strong><?php echo $subSubName; ?></strong>
+							                											<?php
+							                												$args = array(
+							                													'posts_per_page'   => -1,
+							                													'category'         => $subSubLocationId,
+							                													'orderby'          => 'title',
+							                													'order'            => 'DESC',
+							                													'post_status'      => 'publish'
+							                												);
+							                												$locations = get_posts($args);
+							                												if (count((array)$locations) >= 1){
+							                													?>
+						                														<ul class="fa-ul">
+						                															<?php
+									                												foreach($locations AS $keyLocLoc => $valueLocLoc){
+										                												$locLocId = $valueLocLoc->ID;
+										                												?>
+										                													<li>
+										                														<i class="fa-li fa fa-home"></i>
+										                														<strong><a href="<?php echo get_permalink($locLocId); ?>"><?php echo get_the_title($locLocId); ?></a></strong>
+										                													</li>
+										                												<?php
+									                												}
+									                												?>
+						                														</ul>
+							                													<?php
+							                												}
+							                											?>
+								                									</li>
+												                				<?php
+												                			}
+								                						?>
+								                					</ul>
+									                				<?php
+									                			}
+	                										?>
+	                									</li>
+														</div>
+													    </div>
+	                								<?php
+					                			}
+				                			?>
+				                			</ul>
+				                		</div>
+	                				<?php
+	                			}
+	                		?>
+	                	</div>
+	                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="sitesection">
+    <p class="expand-one"><a href="#collapseOne">+</a></p>
+    <p class="content-one">This is the content </p>
+</div>
+
+<?php
+	include_once('includes/home/howtos.php');
+	include_once('includes/home/homeowners.php');
+	include_once('includes/home/largest.php');
+?>
+<?php get_footer(); ?>

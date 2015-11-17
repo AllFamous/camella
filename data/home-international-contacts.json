@@ -1,0 +1,56 @@
+[ 
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-usa-flag.jpg",
+	  	"countryName"	: "USA",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "roy@allfamous.com"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-canada-flag.jpg",
+	  	"countryName"	: "CANADA",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-uk-flag.jpg",
+	  	"countryName"	: "UNITED KINGDOM",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-france-flag.jpg",
+	  	"countryName"	: "FRANCE",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-spain-flag.jpg",
+	  	"countryName"	: "SPAIN",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-greece-flag.jpg",
+	  	"countryName"	: "GREECE",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-australia-flag.jpg",
+	  	"countryName"	: "AUSTRALIA",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-japan-flag.jpg",
+	  	"countryName"	: "JAPAN",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	},
+	{
+	  	"icon"			: "http://testdev.camella.com.ph/wp-content/uploads/2015/07/icon-bahrain-flag.jpg",
+	  	"countryName"	: "BAHRAIN",
+	  	"contactNumber" : "+63 917 8881234",
+	  	"emailAddress" 	: "sales.usa@camella.com.ph"
+	}
+]
