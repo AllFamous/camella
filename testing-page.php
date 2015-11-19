@@ -47,5 +47,4 @@ global $wp_query;
         'Visayas' => getPropertyList( $visayas ),
         'Mindanao' => getPropertyList( $mindanao )
  );
- 
  echo json_encode( $listing );

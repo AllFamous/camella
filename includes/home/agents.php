@@ -86,29 +86,7 @@
                                 <h4 class="modal-title">Send Message</h4>
                             </div>
                             <div class="modal-body">
-							<?php echo FrmFormsController::show_form(6, $key = '', $title=true, $description=true); ?>
-                                <!-- <p>Fill-up the form below to send your question or inquires to <span class="contact-agent-name"></span>.</p>
-                                <div class="well">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="agentContactFullName">Full Name</label>
-                                            <input type="text" class="form-control" id="agentContactFullName" placeholder="full name">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="agentContactEmailAddress">Email Address</label>
-                                            <input type="email" class="form-control" id="agentContactEmailAddress" placeholder="email address">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="agentContactNumber">Contact Number</label>
-                                            <input type="email" class="form-control" id="agentContactNumber" placeholder="contact number">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="agentContactMessage">Message</label>
-                                            <textarea class="form-control" id="agentContactMessage" placeholder="your message"></textarea>
-                                        </div>
-                                    </form>
-                                    <div class="agent-contact-alerts"></div>
-                                </div> -->
+					<?php echo FrmFormsController::show_form(6, $key = '', $title=true, $description=true); ?>
                             </div>
                             <div class="modal-footer text-right">
                                 <!-- <button type="button" class="btn btn-primary" id="contactAgentSubmit">SUBMIT</button> -->
@@ -163,25 +141,7 @@
                                 </div>
                                 <?php
                                 endwhile;
-                        endif;
-                        /*
-                            $templateUrl = get_template_directory_uri();
-                            $jsonFile = json_decode(file_get_contents($templateUrl.'/data/home-international-contacts.json'), true);
-                            $animCount = 0;
-                            foreach($jsonFile as $key => $value){
-                                $icon = $value['icon'];
-                                $title = $value['countryName'];
-                                $number = $value['contactNumber'];
-                                $email = $value['emailAddress'];
-                                $animCount = $animCount + 0.2;
-                                
-                                echo '<div class="col-sm-12 item-'. strtolower(str_replace(' ', '-', $title )) .' text-center key-item international-item move 50px wait '.$animCount.'s"><div class="panel panel-primary"><div class="panel-body text-center">';
-                                echo '<div class="key-icon-container"><div class="key-icon shadow" style="background-image: url('.$icon.');"></div></div><h4>'.$title.'</h4></div>';
-                                echo '<div class="panel-footer no-padding"><a href="#" class="btn btn-primary btn-block international-send-message" data-email-address="'.$email.'" data-toggle="modal" data-target="#agentModal"><i class="fa fa-envelope"></i> SEND MESSAGE</a></div></div></div>';
-                                 
-							}
-			*/
-							
+                        endif;			
                         ?>
                         </div>
                 </div></div>

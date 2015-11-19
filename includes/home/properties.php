@@ -269,7 +269,7 @@ window.CamellaEmail = <?php echo json_encode($email_details); ?>;
                         </div>
                         <div class="panel-footer text-right">
                             <p class="pull-left">Disclaimer: All computations appearing herein are for sample computation only and are not official.</p> 
-							<p class="pull-left"> Terms are subject to change without prior notice.</p>
+			    <p class="pull-left"> Terms are subject to change without prior notice.</p>
                             <button type="button" class="btn btn-primary btn-lg calculator-reset">RESET</button> <button type="button" class="btn btn-primary btn-lg calculator-calculate">CALCULATE</button>
                         </div>
                     </div>
@@ -307,7 +307,7 @@ window.CamellaEmail = <?php echo json_encode($email_details); ?>;
                                 </div>
                                 <div class="col-sm-3">
                                    <!-- <p>Monthly Payment</p> -->
-								   <p>Monthly Amortization @ 8% Interest Rate (14 months)</p>
+				    <p>Monthly Amortization @ 8% Interest Rate (14 months)</p>
                                     <h3 class="strong compute-loan-payment"></h3>
                                 </div>
                             </div>

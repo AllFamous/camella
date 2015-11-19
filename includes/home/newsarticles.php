@@ -218,28 +218,7 @@
                             <div id="contentFb" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFb">
                                 <div class="social-carousel">
                                     <div class="panel-body">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#"><img class="media-object" src="<?php echo get_template_directory_uri(); ?>/img/common/social-camella-logo.jpg" width="50px" alt="Camella (Official)"></a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="media-heading">Camella (Official)</h5>
-                                                Camella invites you to the Grand Launch of our Camella Cerritos CDO tomorrow, May 30 at the 10th floor of Mallberry Suites, Cagayan De Oro.
-                                            </div>
-                                        </div>
-                                        <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fa fa-facebook fa-fw"></i> LIKE US ON FACEBOOK</a>
-                                    </div>
-                                    <div class="panel-body">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#"><img class="media-object" src="<?php echo get_template_directory_uri(); ?>/img/common/social-camella-logo.jpg" width="50px" alt="Camella (Official)"></a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="media-heading">Camella (Official)</h5>
-                                                Camella Opens in the Industrial Port City of Calabarzon
-                                            </div>
-                                        </div>
-                                        <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fa fa-facebook fa-fw"></i> LIKE US ON FACEBOOK</a>
+                                        <div class="fb-page" data-href="https://www.facebook.com/CamellaOfficial" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CamellaOfficial"><a href="https://www.facebook.com/CamellaOfficial">Camella (Official)</a></blockquote></div></div>
                                     </div>
                                 </div>
                             </div>
@@ -253,28 +232,8 @@
                             <div id="contentTw" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTw">
                                 <div class="social-carousel">
                                     <div class="panel-body">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#"><img class="media-object" src="<?php echo get_template_directory_uri(); ?>/img/common/social-camella-logo.jpg" width="50px" alt="Camella (Official)"></a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="media-heading">Camella (Official)</h5>
-                                                Camella Unveils its Third Jewel in Isabela <a href="#">t.co/2913idnq</a>
-                                            </div>
-                                        </div>
-                                        <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fa fa-twitter fa-fw"></i> FOLLOW US ON TWITTER</a>
-                                    </div>
-                                    <div class="panel-body">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#"><img class="media-object" src="<?php echo get_template_directory_uri(); ?>/img/common/social-camella-logo.jpg" width="50px" alt="Camella (Official)"></a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="media-heading">Camella (Official)</h5>
-                                                Camella Introduces Two New Projects in Isabela, Batangas City. <a href="#">t.co/2913idnq</a>
-                                            </div>
-                                        </div>
-                                        <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fa fa-twitter fa-fw"></i> FOLLOW US ON TWITTER</a>
+                                                    <a class="twitter-timeline"  href="https://twitter.com/CamellaOfficial" data-widget-id="666529647891353600">Tweets by @CamellaOfficial</a>
+                                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                                     </div>
                                 </div>
                             </div>

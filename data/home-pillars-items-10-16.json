@@ -1,0 +1,32 @@
+[ 
+	{
+	  	"icon"			: "dashicons dashicons-admin-multisite",
+	  	"title"			: "Dream Communities",
+	  	"description" 	: "Camella’s mission is to provide Filipinos with the kind of home and lifestyle they have long dreamed of, by building beautiful communities replete with well-maintained surroundings, manicured landscaping, peaceful and quiet properties, and beautiful well-built homes.",
+	  	"url" 			: "/5-points-advantage"
+	},
+	{
+	  	"icon"			: "fa-road",
+	  	"title"			: "Convenience and Accessibility",
+	  	"description" 	: "Camella builds in only the most carefully selected and attractive locations, located close to commercial centers, government services, educational institutions, hospitals, places of worship, and key transportation arteries and hubs. Camella augments this convenience with additional amenities, such as clubhouses, swimming pools, and playgrounds.",
+	  	"url" 			: "/5-points-advantage"
+	},
+	{
+	  	"icon"			: "fa-key",
+	  	"title"			: "Safety and Security",
+	  	"description" 	: "Camella guarantees homeowners’ safety with guarded entrance gates equipped with CCTV, as well as high perimeter fences, and round-the-clock roving security guards, making sure your home is a safe haven.",
+	  	"url" 			: "/5-points-advantage"
+	},
+	{
+	  	"icon"			: "fa-check",
+	  	"title"			: "Wise Investments",
+	  	"description" 	: "Every Camella home is a desirable investment, likely to appreciate in value over time.",
+	  	"url" 			: "/5-points-advantage"
+	},
+	{
+	  	"icon"			: "fa-thumbs-up",
+	  	"title"			: "Affordability and Value-for-Money",
+	  	"description" 	: "Camella offers easy home ownership through flexible financing schemes and payment options to give every Filipino the ability to have a home to call their own.",
+	  	"url" 			: "/5-points-advantage"
+	}
+]

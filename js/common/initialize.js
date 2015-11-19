@@ -199,8 +199,43 @@
             }            
         });
         
+        // carousel testimonials
+        $('#carousel-testimonials').owlCarousel({
+            stopOnHover: true,
+            pagination: true,
+            navigation: true,
+            navigationText: ['<i class="fa fa-angle-left fa-5x fa-light"></i>', '<i class="fa fa-angle-right fa-5x fa-light"></i>'],
+            autoPlay: true,
+            singleItem: true,
+            slideSpeed: 2000,
+            autoHeight:true
+        });
         
-        
+        /******************************
+         * Add listener to .whychoose carousel to fix height
+         **********************************/
+        var chc_listener = setInterval(function(){
+                var container = $('.whychoose-container .owl-wrapper-outer'),
+                        start_left = parseInt( container.css('left') )
+                        items = $('.whychoose-container .owl-item'),
+                        max_height = 50,
+                        item_title = $('h4', container);
+                        
+                item_title.css('height', 'auto');
+                items.each(function(){
+                        var item = $(this),
+                                left = item.offset().left,
+                                title = $('h4', item),
+                                height = title.outerHeight();
+                        
+                        if ( left >= 0  ) {
+                                if ( height > max_height ) {
+                                        max_height = height;
+                                }
+                                title.css('height', max_height);
+                        }
+                });                
+        }, 1);
     });
     
 // Events

@@ -414,6 +414,7 @@ endif;
                 'type' => 'textarea'
         )
  ));
+ 
  # Fold 10 Guides
   $customizer->add_section( 'camella_guides', array(
         'title' => __('FOLD 10: HowTos'),

@@ -1,8 +1,8 @@
 <?php
 if( isset( $_REQUEST['nonce']) && wp_verify_nonce( $_REQUEST['nonce'], 'get_location_properties') ):
-/**
+/*************
  * Retrieve property locations where current catalog model exists!
- **/
+ *****************************************************************/
 	get_template_part( 'includes/ajax-query/get-location-properties' );
 	exit;
 endif;

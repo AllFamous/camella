@@ -979,13 +979,14 @@ $(document).ready(function(){
                                         content += '<span class="fa-agent-new"><i class="fa fa-user fa-5x"></i></span>';
                                     }
                                     
-                                    var location = value['agentLocation']['name'];
+                                    var location = value['agentCustom']['agentLocation'],
+                                        agent_name = value['agentCustom']['firstName'] + ' ' + value['agentCustom']['lastName'];
                                     location = ! location ? 'Metro Manila' : location;
                                     content += '</div>';
                                     content += '<div class="media-body"><h4 class="media-heading"><a href="' + value.redirect_link + '">'+value['agentCustom']['firstName'].toUpperCase()+'<br><span>'+value['agentCustom']['lastName']+'</span></a></h4><hr>';
                                     content += '<span><i class="fa fa-map-marker fa-fw"></i> '+ location +'</span></div></div></div>';
                                     content += '<div class="panel-body">'+value['agentData']['post_content']+'</div><div class="panel-footer no-padding">';
-                                    content += '<a href="' + value.redirect_link + '" class="btn btn-primary btn-block agent-send-message" data-toggle="modal" data-target="#agentModal"><i class="fa fa-envelope fa-fw"></i> SEND EMAIL MESSAGE</a></div></div></div>';
+                                    content += '<a href="' + value.redirect_link + '?agent=' + agent_name + '" class="btn btn-primary btn-block agent-send-message" data-toggle="modal" data-target="#agentModal"><i class="fa fa-envelope fa-fw"></i> SEND EMAIL MESSAGE</a></div></div></div>';
                                     $('#agents-list-container').append(content);
                                     $('#agents-list-container div:last-child').data(value);
                                     n++;
@@ -1002,7 +1003,7 @@ $(document).ready(function(){
                         content += '</div><div class="media-body"><h4 class="media-heading"><a href="#">WANT TO BE<br><span>AN AGENT</span></a></h4>';
                         content += '<hr><span><i class="fa fa-map-marker fa-fw"></i> Manila</span></div></div></div>';
                         content += '<div class="panel-body">We are looking for committed full-time and part-time brokers and agents. Join our very dynamic company now!</div>';
-                        content += '<div class="panel-footer no-padding"><a href="careers" class="btn btn-primary btn-block"><i class="fa fa-file-text fa-fw"></i> CLICK HERE TO KNOW MORE</a></div></div></div>';
+                        content += '<div class="panel-footer no-padding"><a href="./sales-recruitment-form/" target="_blank" class="btn btn-primary btn-block"><i class="fa fa-file-text fa-fw"></i> CLICK HERE TO KNOW MORE</a></div></div></div>';
                         
 						$('#agents-list-container').append(content);
 						
@@ -1073,18 +1074,6 @@ $(document).ready(function(){
             items: 4,
             itemsTablet: [768, 3],
             itemsMobile: [479, 1]
-        });
-        
-        // carousel testimonials
-        $('#carousel-testimonials').owlCarousel({
-            stopOnHover: true,
-            pagination: true,
-            navigation: true,
-            navigationText: ['<i class="fa fa-angle-left fa-5x fa-light"></i>', '<i class="fa fa-angle-right fa-5x fa-light"></i>'],
-            autoPlay: true,
-            singleItem: true,
-            slideSpeed: 2000,
-            autoHeight:true
         });
         
         /*******
