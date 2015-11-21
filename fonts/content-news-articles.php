@@ -3,7 +3,9 @@
         if (has_post_thumbnail()) {
             ?>
             <div class="article-hero-image">
-                <?php $postFeatured = wp_get_attachment_url(get_post_thumbnail_id($post->ID), 'property_image'); ?>
+                <?php
+                    $featured_id = get_post_thumbnail_id($post->ID); 
+                    $postFeatured = wp_get_attachment_image_src( (int) $featured_id, 'property_image' ); ?>
                 <a target="_blank" href="<?php the_permalink(); ?>"><img src="<?php echo $postFeatured; ?>" class="img-responsive"></a>
             </div>
             <div class="article-content">

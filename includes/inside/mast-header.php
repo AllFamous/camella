@@ -49,32 +49,7 @@
                     <h2><?php echo $title; ?></h2>
                 </div>
                 <div class="social-buttons small">
-                    <ul class="no-bullets inline">
-                        <?php
-                        $social_links = get_theme_mod( 'camella_social_links' );
-                        $social_links =  wp_parse_args( (array) $social_links, array(
-                                'facebook' => 'https://www.facebook.com/CamellaOfficial?fref=ts',
-                                'twitter' => 'https://twitter.com/CamellaOfficial',
-                                'google-plus' => 'https://plus.google.com/104081564529915814322/posts',
-                                'pinterest' => 'https://www.pinterest.com/camellainternat/',
-                                'envelope' => 'customercare@camella.com.ph'
-                        ));
-                        $social_links = array_filter( $social_links );
-                        
-                        foreach( $social_links as $social => $link_url ):
-                                $link_url = $social == 'envelope' ? "mailto:{$link_url}" : $link_url;
-                                $initial = substr($social, 0, 2);
-                                
-                                if( $social == 'facebook' ) $initial = 'fb';
-                                elseif( $social == 'google-plus' ) $initial = 'gp';
-                        ?>
-                        <li class="text-center">
-                                <a href="<?php echo esc_url( $link_url ); ?>" rel="nofollow" class="<?php echo $initial; ?>">
-                                        <i class="fa fa-<?php echo $social; ?>"></i>
-                                </a>
-                        </li>
-                        <?php endforeach; ?>
-                    </ul>
+                    <?php echo do_shortcode('[shareaholic app="share_buttons" id="19049963"]'); ?>
                 </div>
                 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
                     <?php

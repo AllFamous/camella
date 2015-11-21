@@ -29,7 +29,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center hero-section">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/common/logo-camella-green.png">
+                            <img class="img-logo" src="<?php echo get_template_directory_uri(); ?>/img/common/logo-camella-green.png">
                             <h1>Beautiful. Convenient. Secure.</h1>
                             <h2>Camella Masterplanned Cities. All that you need is here.</h2>
                         </div>

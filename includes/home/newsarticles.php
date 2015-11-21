@@ -218,7 +218,7 @@
                             <div id="contentFb" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFb">
                                 <div class="social-carousel">
                                     <div class="panel-body">
-                                        <div class="fb-page" data-href="https://www.facebook.com/CamellaOfficial" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CamellaOfficial"><a href="https://www.facebook.com/CamellaOfficial">Camella (Official)</a></blockquote></div></div>
+                                        <?php echo do_shortcode( '[custom-facebook-feed]' ); ?>
                                     </div>
                                 </div>
                             </div>
@@ -232,8 +232,8 @@
                             <div id="contentTw" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTw">
                                 <div class="social-carousel">
                                     <div class="panel-body">
-                                                    <a class="twitter-timeline"  href="https://twitter.com/CamellaOfficial" data-widget-id="666529647891353600">Tweets by @CamellaOfficial</a>
-                                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                        <a class="twitter-timeline"  href="https://twitter.com/CamellaOfficial" data-widget-id="666529647891353600" data-chrome="noheader nofooter noborders">Tweets by @CamellaOfficial</a>
+                                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                                     </div>
                                 </div>
                             </div>
@@ -247,14 +247,7 @@
                             <div id="contentIg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingIg">
                                 <div class="panel-body">
                                     <div class="media">
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-01.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-02.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-03.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-04.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-05.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-06.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-01.jpg" width="50px"></a>
-                                        <a href="#" class="thumbnail thumbnail-inline"><img src="<?php echo get_template_directory_uri(); ?>/img/content/insta-02.jpg" width="50px"></a>
+                                        <?php echo do_shortcode( '[instagram-feed]' ); ?>
                                     </div>
                                     <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fa fa-instagram fa-fw"></i> FOLLOW US ON INSTAGRAM</a>
                                 </div>
